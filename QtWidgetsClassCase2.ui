@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtWidgetsClassCase2Class</class>
+ <widget class="QMainWindow" name="QtWidgetsClassCase2Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>250</width>
+    <height>218</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Кейс2</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Имя файла</string>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>231</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1 - int</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2 - float</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_3">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>40</y>
+       <width>75</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3 - double</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>201</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Stat</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Sing</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Trend</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>FFT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DFT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TrendFFT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TrendDFT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SCADA-FFT1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SCADA-DFT1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SCADA-FFT2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SCADA-DFT2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MIC-FFT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MIC-DFT</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Выбрать файл</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
